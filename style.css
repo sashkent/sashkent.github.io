@@ -1,0 +1,224 @@
+.body{
+  min-width: 1286px;
+  min-height: 766px;
+}
+.content {
+  position:relative;
+  z-index: 3;
+  color: black;
+  text-decoration: none;
+  list-style-type:none;
+}
+.recom{
+  width: 100%;
+  text-align:center;
+
+  font-size: 4vmin;
+
+  z-index: 2;
+  color: black;
+top:16vw;
+}
+.recom table{
+  top:20vw;
+  width: 66%;
+      background-color: rgb(80,80,80,0.75);
+      border-collapse: inherit;
+}
+a figure{
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-top: 2%;
+   background-color: rgb(50,80,83,0.75);
+overflow-x:hidden;
+width: 16%;
+      display: block; /* Блочный элемент */
+      float:left; /* Блоки выстраиваются по горизонтали */
+      text-align: left; /* Выравнивание по центру */
+      ::-webkit-scrollbar;
+     }
+     a figure img{
+width: 100%;
+     }
+a figcaption {
+  height: 30vh;
+font-size: 2vmin;
+     }
+
+
+
+.kino{
+  position:relative;
+  float: left;
+  width:20%;
+    margin: 0 1em 1em 0;
+    text-align: left;
+}
+.kino div{
+text-align: left;
+}
+
+
+.content div{
+  font-weight:bold;
+}
+#poisk{
+  width: 990%;
+  font-size: 2vmin;
+   background-color: rgb(70,80,90,0.75);
+       outline: 2px solid black;
+}
+table img{
+  position:relative;
+  width: 13vmin;
+}
+.logo{
+  width: 100%;
+  text-align:relative;
+    text-align:center;
+  font-size: 4vmin;
+  position:fixed;
+  z-index: 2;
+  color: black;
+top:0;
+}
+.logo img{
+
+  height:15vw;
+}
+
+form{
+  width: 10%;
+}
+input{
+  color: black;
+  background: rgb(80,80,80,0.9);
+}
+table{
+  text-align:center;
+  font-size: 3vmin;
+  position:relative;
+  z-index: 2;
+  width: 70%;
+  color: black;
+  padding: 3px; /* Поля вокруг текста */
+    background-color: rgb(80,80,80,0.9);/* Цвет фона */
+    outline: 2px solid black;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+}
+table i{
+  color: lightskyblue;
+}
+
+.container {
+  padding: 0px; /* Поля внутри блока */
+  margin: 0px; /* Отступы вокруг */
+    background-color: rgb(80,80,80,0.7);/* Цвет фона */
+    outline: 2px solid black;
+    text-align:left;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+
+}
+
+.data{
+  width: 7vw;
+    padding: 10px; /* Поля вокруг текста */
+    background-color: rgb(80,80,80,0.7);/* Цвет фона */
+    outline: 2px solid black;
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+    text-align:center;
+    z-index: 3;
+    top:26%;
+    font-size: 3vmin;
+    position:fixed;
+    right: 2%;
+}
+
+.data li{
+ list-style-type:none;
+       overflow: hidden;
+}
+
+.data li:hover {
+  text-decoration: underline;
+ }
+
+.bg {
+  position:fixed;
+  left: -10px;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: url(3.jpg) repeat center;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:1920px 1080px;
+  width: 1920px;
+  height: 1080px;
+}
+ul {
+   list-style-type:none;
+     font-size: 3vmin;
+   padding: 0;
+    margin-left: 5px;
+    text-overflow:ellipsis;
+          overflow: hidden;
+  }
+  .container li:hover {
+    text-decoration: underline;
+   }
+
+
+
+.sign {
+  list-style-position: outside;
+  text-align:left;
+  top:0;
+    z-index: 3;
+  width: 10%;
+  position:fixed;
+  height: 80%; /* Ширина текстового блока */
+    float: left; /* Выравнивание по правому краю */
+    padding: 0px; /* Поля внутри блока */
+    margin: 0px 0 0px 0px; /* Отступы вокруг */
+    opacity: 0.9; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+   }
+   .sign figcaption {
+    margin: 0 auto 0px; /* Отступы вокруг абзаца */
+   }
+
+   .i{
+  font-size: 3vmin;
+      list-style-type: none;
+     position:fixed;
+     width: 13%;
+     padding: 0px; /* Поля вокруг текста */
+       background-color: rgb(70,80,90,0.75);/* Цвет фона */
+       margin: 10px 0 5px 5px; /* Выравниваем слой по центру */
+       outline: 2px solid black;
+       opacity: 0.9; /* Значение прозрачности */
+       filter: alpha(Opacity=70); /* Прозрачность в IE */
+       bottom: 0;
+            overflow: hidden;
+   }
+   .ia{
+     overflow: hidden;
+  font-size: 3vmin;
+      list-style-type: none;
+        text-align:center;
+     position:fixed;
+     padding: 0px; /* Поля вокруг текста */
+       background-color: rgb(70,80,90,0.75);/* Цвет фона */
+       margin: 10px 0 5px 5px; /* Выравниваем слой по центру */
+       outline: 2px solid black;
+       opacity: 0.9; /* Значение прозрачности */
+       filter: alpha(Opacity=70); /* Прозрачность в IE */
+       bottom: 0;
+       width: 8%;
+     right: 1%;
+   }
